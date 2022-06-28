@@ -1,15 +1,19 @@
 {
   "name": "vite-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@navikt/ds-tailwind": "^0.2.7",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "@navikt/ds-react": "0.19.14",
+    "@navikt/ds-css": "0.18.18",
+    "@navikt/ds-icons": "0.8.17"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
@@ -19,6 +23,8 @@
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4",
     "typescript": "^4.6.3",
-    "vite": "^2.9.9"
-  }
+    "vite": "^2.9.9",
+    "prettier": "2.7.1"
+  },
+  "prettier": {}
 }
